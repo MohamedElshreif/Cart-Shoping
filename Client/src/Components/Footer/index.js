@@ -1,10 +1,11 @@
 import React from 'react'
-import '../../css/Components/Footer/Footer.css'
+import '../../css/Components/Footer/Footer.css';
+import {words} from '../../words';
 
 const Footer = () => {
   return (
         <footer>
-            <p>© 2022 Mohamed Elshreif All Rights Reserved</p>
+            <p>{words.footerTilte}</p>
         </footer>  
     )
 }
