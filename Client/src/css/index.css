@@ -13,3 +13,10 @@ body {
   height: 100vh;
   background-color: honeydew;
 }
+
+.App {
+  display: grid;
+  grid-template-areas: "header" " main" "footer";
+  grid-template-rows: 70px 1fr 50px;
+  height: 100%;
+}

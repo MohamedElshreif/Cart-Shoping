@@ -16,9 +16,12 @@ body {
     background-color: honeydew;
 }
 
-.app{
+.App{
     display: grid;
-    grid-template-areas: "Header" , " Main" , "Footer";
-    grid-template-rows: 50px 1fr 50px;
+    grid-template-areas: 
+    "header" 
+    " main"  
+    "footer";
+    grid-template-rows: 70px 1fr 50px;
     height: 100%;
 }
