@@ -8,7 +8,7 @@
         "sizes" : ["small", "large"]
     },
     {
-        "id":5,
+        "id":2,
         "tilte" : "computer",
         "image_Url" : "./images/product2.jpg",
         "desc" : "this is Good Product two",
